@@ -1,0 +1,134 @@
+{
+  "seller": [
+    {
+      "name": "Vishal Kumar Kannaujiya",
+      "password": "Vishal@123",
+      "email": "vishal.kannaujiya@gmail.com",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "name": "Bed king size",
+      "price": "13000",
+      "category": "Bed ",
+      "color": "Brown",
+      "description": "Long king size bed",
+      "image": "assets/Bed/Bimg1.jpg",
+      "id": 4
+    },
+    {
+      "name": "Queen size bed",
+      "price": "16000",
+      "category": "Bed",
+      "color": "White",
+      "description": "A twin mattress is the smallest bed on the market. It is 38 inches wide and 75 inches long. It’s a great space-saving bed for single sleepers, kids, and bunk beds.",
+      "image": "assets/Bed/Bimg2.jpg",
+      "id": 5
+    },
+    {
+      "name": "Four-Poster Bed",
+      "price": "20000",
+      "category": "Bed",
+      "color": "Black",
+      "description": "A full mattress (also called a double) is 53 inches wide and 75 inches long. It’s 16 inches wider than a twin. The full-size bed is great for single sleepers like young adults or recent grads. It can also work nicely in guest rooms.",
+      "image": "assets/Bed/Bimg3.jpg",
+      "id": 6
+    },
+    {
+      "name": "Wing chair",
+      "price": "5000",
+      "category": "Chair",
+      "color": "Orange",
+      "description": "[12:33 PM] Pooja Chorge\n\n\n\n\nWingback chairs are best described as upholstered armchairs featuring a high back, a low seat, and wrap-around side wings (also called cheeks) that encase the occupant's head. The most common design features the wings mounted to the back of the chair. Sometimes, however, they extend down to the armrest.\n\n\n",
+      "image": "assets/Chair/Cimg1.jpg",
+      "id": 7
+    },
+    {
+      "name": "Study chair",
+      "price": "7000",
+      "category": "Chair",
+      "color": "White brown",
+      "description": "Study Chair means the member of Implementation Coordinating Center personnel who will oversee, monitor, and facilitate implementation of the Project and manage other Implementation Coordinating Center personnel.",
+      "image": "assets/Chair/Cimg2.jpg",
+      "id": 8
+    },
+    {
+      "name": "8 seater dining table",
+      "price": "12000",
+      "category": "Dining Table",
+      "color": "Brown",
+      "description": "Dining rooms always include a table and chairs, and sometimes a buffet (or sideboard) and a china cabinet or cupboard. ",
+      "image": "assets/Dinning table/Dimg1.jpg",
+      "id": 9
+    },
+    {
+      "name": "Flatware",
+      "price": "8000",
+      "category": "Dining Table",
+      "color": "White brown",
+      "description": "Flatware is a term that is used to group together different utensils, including spoons, forks, and knives, that are used at the table for eating and serving rather than as kitchen tools.",
+      "image": "assets/Dinning table/Dimg2.jpg",
+      "id": 10
+    },
+    {
+      "name": "Glassware",
+      "price": "10000",
+      "category": "Dining Table",
+      "color": "black",
+      "description": "Glassware, any decorative article made of glass, often designed for everyday use. From very early times glass has been used for various kinds of vessels, and in all countries where the industry has been developed glass has been produced in a great variety of forms and kinds of decoration, much of it of great beauty.",
+      "image": "assets/Dinning table/Dimg3.jpg",
+      "id": 11
+    },
+    {
+      "name": "The square arm sofa.",
+      "price": "18000",
+      "category": "Sofa",
+      "color": "Brown",
+      "description": "Square: Often found on Lawson and mid-century modern sofas, square sofa arms are characterized by sharp, geometric lines.",
+      "image": "assets/Sofa/Simg1.jpg",
+      "id": 13
+    },
+    {
+      "name": "The hard wedge arm sofa.",
+      "price": "15000",
+      "category": "Sofa",
+      "color": "White",
+      "description": "Chief cushion to sit on Inside Arm The arm frame without the cover or upholstery Inside Back Area from the top of the seat cushion to the back Outside Back The upholstered part from the top of the seat to the foot of the sofa",
+      "image": "assets/Sofa/Simg2.jpg",
+      "id": 14
+    },
+    {
+      "name": "The rounded wedge arm sofa.",
+      "price": "21000",
+      "category": "Sofa",
+      "color": "Black",
+      "description": "This rounded feature gives many of these couches or sofas a designer look, because it’s a bit more unique than the classic round or square arm sofas.",
+      "image": "assets/Sofa/Simg3.jpg",
+      "id": 15
+    }
+  ],
+  "users": [
+    {
+      "name": "vishal",
+      "email": "vishal@gmail.com",
+      "password": "vishal@123",
+      "id": 1
+    }
+  ],
+  "cart": [
+    {
+      "name": "Four-Poster Bed",
+      "price": "20000",
+      "category": "Bed",
+      "color": "Black",
+      "description": "A full mattress (also called a double) is 53 inches wide and 75 inches long. It’s 16 inches wider than a twin. The full-size bed is great for single sleepers like young adults or recent grads. It can also work nicely in guest rooms.",
+      "image": "assets/Bed/Bimg3.jpg",
+      "quantity": 2,
+      "productId": 6,
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "orders": []
+}
