@@ -114,6 +114,12 @@
       "email": "vishal@gmail.com",
       "password": "vishal@123",
       "id": 1
+    },
+    {
+      "name": "Naksh",
+      "email": "abc@exampl.com",
+      "password": "1234",
+      "id": 2
     }
   ],
   "cart": [
@@ -128,6 +134,18 @@
       "productId": 6,
       "userId": 1,
       "id": 1
+    },
+    {
+      "name": "Flatware",
+      "price": "8000",
+      "category": "Dining Table",
+      "color": "White brown",
+      "description": "Flatware is a term that is used to group together different utensils, including spoons, forks, and knives, that are used at the table for eating and serving rather than as kitchen tools.",
+      "image": "assets/Dinning table/Dimg2.jpg",
+      "quantity": 1,
+      "productId": 10,
+      "userId": 2,
+      "id": 2
     }
   ],
   "orders": []

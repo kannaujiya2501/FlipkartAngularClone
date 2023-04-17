@@ -12,6 +12,8 @@ import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
 import { UserAuthComponent } from './user-auth/user-auth.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {
@@ -44,15 +46,26 @@ const routes: Routes = [
   },{
     component:UserAuthComponent,
     path:'user-auth'
-  },{
+  },
+  {
     component:CartPageComponent,
     path:'cart-page'
-  },{
+  },
+  {
     component:CheckoutComponent,
     path:'checkout'
-  },{
+  },
+  {
     component:MyOrdersComponent,
     path:'my-orders'
+  },
+  {
+    component:ContactComponent,
+    path:'contact'
+  },
+  {
+    component:AboutComponent,
+    path:'about'
   }
 ];
 
