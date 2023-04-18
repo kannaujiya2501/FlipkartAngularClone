@@ -5,6 +5,12 @@
       "password": "Vishal@123",
       "email": "vishal.kannaujiya@gmail.com",
       "id": 1
+    },
+    {
+      "name": "test01",
+      "password": "134",
+      "email": "test@gmail.com",
+      "id": 2
     }
   ],
   "products": [
@@ -148,5 +154,19 @@
       "id": 2
     }
   ],
-  "orders": []
+  "orders": [],
+  "feedback": [
+    {
+      "id": 1,
+      "name": "Abc",
+      "email": "abc@gmail.com",
+      "msg": "Awesome"
+    },
+    {
+      "id": 2,
+      "name": "Sdcds",
+      "email": "abc@gmail.com",
+      "msg": "Good"
+    }
+  ]
 }
