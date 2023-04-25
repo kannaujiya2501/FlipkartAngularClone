@@ -7,7 +7,6 @@ export interface login {
   email: String;
   password: String;
 }
-
 export interface product{
   name:string,
   price:number,
@@ -31,7 +30,6 @@ export interface cart{
   productId:number,
   userId:number
 }
-
 export interface priceSummary{
   price:number,
   discount:number,
@@ -39,7 +37,6 @@ export interface priceSummary{
   delivery:number,
   total:number
 }
-
 export interface order {
   email:string,
   address:string,
@@ -47,4 +44,10 @@ export interface order {
   totalPrice:number,
   userId:string,
   id:number|undefined
+}
+export interface feed{
+  id:number,
+  name:string,
+  email:string,
+  msg:string
 }

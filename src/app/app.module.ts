@@ -22,6 +22,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { FeedbackDispComponent } from './feedback-disp/feedback-disp.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { AboutComponent } from './about/about.component';
     CheckoutComponent,
     MyOrdersComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    FeedbackDispComponent
   ],
   imports: [
     BrowserModule,

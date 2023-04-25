@@ -1,0 +1,26 @@
+.content{
+    font-family: Helvetica, sans-serif;
+    margin: 20px 20px;
+    padding: 10px;
+    
+}
+.content h2{
+    font-family: 'fantasy';
+    font-weight: 200;
+    letter-spacing: 5px;
+    margin: 0;
+    text-align: center;
+    padding: 10px 10px;
+    width: 100%;
+}
+.content hr{
+    color: grey;
+    width: 50%;
+    margin: auto;
+    padding: 15px 0;
+    size: 2;
+}
+.table th, td {
+    padding: 10px;
+    text-align: left;
+  }

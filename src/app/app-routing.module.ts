@@ -14,6 +14,7 @@ import { SellerUpdateProductComponent } from './seller-update-product/seller-upd
 import { UserAuthComponent } from './user-auth/user-auth.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { FeedbackDispComponent } from './feedback-disp/feedback-disp.component'
 
 const routes: Routes = [
   {
@@ -28,11 +29,13 @@ const routes: Routes = [
     component:SellerHomeComponent,
     path:'seller-home',
     canActivate:[AuthGuard]
-  },{
+  },
+  {
     component:SellerAddProductComponent,
     path:'seller-add-product',
     canActivate:[AuthGuard]
-  },{
+  },
+  {
     component:SellerUpdateProductComponent,
     path:'seller-update-product/:id',
     canActivate:[AuthGuard]
@@ -40,10 +43,12 @@ const routes: Routes = [
   {
     component: SearchComponent,
     path:'search/:query'
-  },{
+  },
+  {
     component:ProductDetailsComponent,
     path:'details/:productId'
-  },{
+  },
+  {
     component:UserAuthComponent,
     path:'user-auth'
   },
@@ -66,6 +71,10 @@ const routes: Routes = [
   {
     component:AboutComponent,
     path:'about'
+  },
+  {
+    component:FeedbackDispComponent,
+    path:'feedback'
   }
 ];
 

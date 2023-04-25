@@ -1,0 +1,24 @@
+<div class="container mt-5">
+    <div class="content">
+        <h2>User's Feedback Lists</h2>
+        <hr><br>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Messages</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let user of feed">
+                <td>{{ user.id }}</td>
+                <td>{{ user.name }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.msg }}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

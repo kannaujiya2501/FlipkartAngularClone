@@ -1,6 +1,7 @@
 ul{
     margin: 0;
     padding: 0;
+    
 }
 .footer {
     padding: 10px;
@@ -9,7 +10,9 @@ ul{
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: #fff;
+    background-color:cadetblue;
+    width:100%;
+    background-color: lightblue;
 }
 .footer ul{
     list-style-type: none;
@@ -17,6 +20,6 @@ ul{
     justify-content: space-between;
 }
 .footer ul li a{
-    color: blueviolet;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
