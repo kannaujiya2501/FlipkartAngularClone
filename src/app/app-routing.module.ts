@@ -14,6 +14,7 @@ import { SellerUpdateProductComponent } from './seller-update-product/seller-upd
 import { UserAuthComponent } from './user-auth/user-auth.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { OrdersComponent } from './orders/orders.component';
 
 const routes: Routes = [
   {
@@ -66,6 +67,8 @@ const routes: Routes = [
   {
     component:AboutComponent,
     path:'about'
+  },{
+    path:'orderlist',component:OrdersComponent
   }
 ];
 

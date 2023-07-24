@@ -1,0 +1,31 @@
+
+
+<br>
+<h1>Order List</h1>
+<br> 
+<table class="table table-bordered">
+    <thead >
+      <tr>
+        <th scope="col">userId</th>
+        <th scope="col">email</th>
+        <th scope="col">address</th>
+        <th scope="col">contact</th>
+        <th scope="col">totalPrice</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let order of orderDatalist">
+        
+        <td>{{order.userId}}</td>
+        <td>{{order.email}}</td>
+        <td>{{order.address}}</td>
+        <td>{{order.contact}}</td>
+        
+        <td>{{order.totalPrice}}</td>
+
+       
+      </tr>
+     
+    </tbody>
+  </table>
+  

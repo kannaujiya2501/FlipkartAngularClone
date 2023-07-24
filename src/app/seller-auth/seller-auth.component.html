@@ -1,6 +1,6 @@
 <div class="seller-auth">
-  <div *ngIf="!showLogin" class="sign-up">
-    <h1>Seller sign-up</h1>
+  <!-- <div *ngIf="showLogin" class="sign-up">
+    <h1>Admin sign-up</h1>
     <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
       <input
         type="text"
@@ -26,10 +26,10 @@
       <button class="form-button">Sign Up</button>
       <a class="auth-toggle-link" (click)="openLogin()">Already have account? Click for Login</a>
     </form>
-  </div>
+  </div> -->
 
-  <div *ngIf="showLogin" class="login">
-    <h1>Seller Login</h1>
+  <div *ngIf="!showLogin" class="login">
+    <h1>Admin Login</h1>
     <p class="error-p">{{authError}}</p>
     <form #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" class="common-form">
       <input
@@ -47,7 +47,7 @@
         ngModel
       />
       <button class="form-button">Login</button>
-      <a class="auth-toggle-link" (click)="openSignUp()">Don't have account? Click for sign-up</a>
+      <!-- <a class="auth-toggle-link" (click)="openSignUp()">Don't have account? Click for sign-up</a> -->
 
     </form>
   </div>

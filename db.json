@@ -11,6 +11,18 @@
       "password": "134",
       "email": "test@gmail.com",
       "id": 2
+    },
+    {
+      "name": "Sachin Kumar Yadav",
+      "password": "12345",
+      "email": "Sachin.Yadav@mastek.com",
+      "id": 3
+    },
+    {
+      "name": "Sachin Kumar Bedi Yadav",
+      "password": "12345",
+      "email": "sachin1164054@gmail.com",
+      "id": 4
     }
   ],
   "products": [
@@ -24,7 +36,7 @@
       "id": 4
     },
     {
-      "name": "Queen size bed",
+      "name": "Bed Queen size ",
       "price": "16000",
       "category": "Bed",
       "color": "White",
@@ -33,22 +45,13 @@
       "id": 5
     },
     {
-      "name": "Four-Poster Bed",
+      "name": "Bed Four-Poster ",
       "price": "20000",
       "category": "Bed",
       "color": "Black",
       "description": "A full mattress (also called a double) is 53 inches wide and 75 inches long. It’s 16 inches wider than a twin. The full-size bed is great for single sleepers like young adults or recent grads. It can also work nicely in guest rooms.",
       "image": "assets/Bed/Bimg3.jpg",
       "id": 6
-    },
-    {
-      "name": "Wing chair",
-      "price": "5000",
-      "category": "Chair",
-      "color": "Orange",
-      "description": "[12:33 PM] Pooja Chorge\n\n\n\n\nWingback chairs are best described as upholstered armchairs featuring a high back, a low seat, and wrap-around side wings (also called cheeks) that encase the occupant's head. The most common design features the wings mounted to the back of the chair. Sometimes, however, they extend down to the armrest.\n\n\n",
-      "image": "assets/Chair/Cimg1.jpg",
-      "id": 7
     },
     {
       "name": "Study chair",
@@ -64,7 +67,7 @@
       "price": "12000",
       "category": "Dining Table",
       "color": "Brown",
-      "description": "Dining rooms always include a table and chairs, and sometimes a buffet (or sideboard) and a china cabinet or cupboard. ",
+      "description": "Dining rooms always include a table and , and sometimes a buffet (sideboard) and a china cabinet or cupboard. ",
       "image": "assets/Dinning table/Dimg1.jpg",
       "id": 9
     },
@@ -126,6 +129,30 @@
       "email": "abc@exampl.com",
       "password": "1234",
       "id": 2
+    },
+    {
+      "name": "Sachin Yadav",
+      "email": "Sachin.Yadav@mastek.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "pooja",
+      "email": "pooja@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "name": "Manisha Yadav",
+      "email": "manisha@gmail.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "neha ",
+      "email": "neha@gmail.com",
+      "password": "12345",
+      "id": 6
     }
   ],
   "cart": [
@@ -152,9 +179,74 @@
       "productId": 10,
       "userId": 2,
       "id": 2
+    },
+    {
+      "name": "Bed Four-Poster ",
+      "price": "20000",
+      "category": "Bed",
+      "color": "Black",
+      "description": "A full mattress (also called a double) is 53 inches wide and 75 inches long. It’s 16 inches wider than a twin. The full-size bed is great for single sleepers like young adults or recent grads. It can also work nicely in guest rooms.",
+      "image": "assets/Bed/Bimg3.jpg",
+      "quantity": 3,
+      "productId": 6,
+      "userId": 6,
+      "id": 8
+    },
+    {
+      "name": "Bed Queen size ",
+      "price": "16000",
+      "category": "Bed",
+      "color": "White",
+      "description": "A twin mattress is the smallest bed on the market. It is 38 inches wide and 75 inches long. It’s a great space-saving bed for single sleepers, kids, and bunk beds.",
+      "image": "assets/Bed/Bimg2.jpg",
+      "quantity": 2,
+      "productId": 5,
+      "userId": 6,
+      "id": 9
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "email": "pooja@gmail.com",
+      "address": "mulund west",
+      "contact": "73748498494",
+      "totalPrice": 14100,
+      "userId": 4,
+      "id": 5
+    },
+    {
+      "email": "sachin1164054@gmail.com",
+      "address": "202 Prithvi APPT sai Sankul near low mart yash vidya Niketan, Virar road Nallasopara",
+      "contact": "73748498494",
+      "totalPrice": 26100,
+      "userId": 4,
+      "id": 6
+    },
+    {
+      "email": "manisha@gmail.com",
+      "address": "101/C-Wing,Fatima Appt.,Moregao Talav, Nallasopara east,vasai -virar",
+      "contact": "6394700226",
+      "totalPrice": 40100,
+      "userId": 5,
+      "id": 7
+    },
+    {
+      "email": "neha@gmail.com",
+      "address": "virar west ",
+      "contact": "09673672184",
+      "totalPrice": 40100,
+      "userId": 6,
+      "id": 8
+    },
+    {
+      "email": "sachin1164054@gmail.com",
+      "address": "202 Prithvi APPT sai Sankul near low mart yash vidya Niketan, Virar road Nallasopara",
+      "contact": "09545938855",
+      "totalPrice": 112100,
+      "userId": 3,
+      "id": 9
+    }
+  ],
   "feedback": [
     {
       "id": 1,
@@ -167,6 +259,18 @@
       "name": "Sdcds",
       "email": "abc@gmail.com",
       "msg": "Good"
+    },
+    {
+      "id": 3,
+      "name": "",
+      "email": "",
+      "msg": ""
+    },
+    {
+      "id": 4,
+      "name": null,
+      "email": null,
+      "msg": null
     }
   ]
 }
